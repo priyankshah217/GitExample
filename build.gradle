@@ -30,6 +30,14 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0-M1'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.0-M1'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.16.1'
+}
+
+test{
+    useJUnitPlatform()
 }
 
 application {
