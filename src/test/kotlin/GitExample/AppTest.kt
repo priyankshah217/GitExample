@@ -11,6 +11,6 @@ class AppTest {
 
     @Test
     fun testAppHasAGreeting() {
-        assertThat(2 + 3).isEqualTo(7)
+        assertThat(5 + 5).isEqualTo(10)
     }
 }
