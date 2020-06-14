@@ -10,8 +10,18 @@ import org.junit.jupiter.api.Test
 class AppTest {
 
     @Test
+    fun testAppHasAGreeting3() {
+        assertThat(8 / 2).isEqualTo(4)
+    }
+
+    @Test
+    fun testAppHasAGreeting2() {
+        assertThat(4 * 2).isEqualTo(8)
+    }
+
+    @Test
     fun testAppHasAGreeting1() {
-        assertThat(4 -1).isEqualTo(3)
+        assertThat(4 - 1).isEqualTo(3)
     }
 
     @Test
