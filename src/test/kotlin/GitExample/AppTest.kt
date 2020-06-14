@@ -10,6 +10,11 @@ import org.junit.jupiter.api.Test
 class AppTest {
 
     @Test
+    fun testAppHasAGreeting1() {
+        assertThat(4 -1).isEqualTo(3)
+    }
+
+    @Test
     fun testAppHasAGreeting() {
         assertThat(3 + 7).isEqualTo(10)
     }
